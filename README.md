@@ -4,7 +4,7 @@
 
 It uses boto3 SDK to list the objects of a bucket then checks for the content and group then in - Directory and File and then return the output in json.
 
-## Assumption 
+### Assumption 
 1. Code will use the Role of the server to get the permission of S3 bucket.
 #### OR
 2. Code will use the already configured aws credentials (default) in (~/.aws/credentials).
